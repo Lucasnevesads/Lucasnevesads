@@ -3,7 +3,7 @@
 ### Gerente de Projetos · Dados e Automação
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-lucasnevesadm-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasnevesadm/)
-[![E-mail](https://img.shields.io/badge/E--mail-lucasnevesad@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucasnevesad@gmail.com)
+[![E-mail](https://img.shields.io/badge/E--mail-contato@lucasnevesdata.com.br-0F766E?style=for-the-badge)](mailto:contato@lucasnevesdata.com.br)
 
 Trabalho num grupo de três empresas: duas corretoras de seguro e uma construtora que vive de licitação.
 

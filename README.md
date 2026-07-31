@@ -13,17 +13,21 @@ Boa parte do que eu faço não é análise complicada. É descobrir que dois rel
 
 ---
 
-## 🧪 Sobre os projetos deste perfil
+## 🧪 Sobre a trilha
 
-Todos os projetos aqui são da **Norte Garantia**, uma corretora de seguro garantia fictícia, com dados gerados artificialmente. Estrutura idêntica à de uma corretora real: apólice, parcela, prêmio, comissão, demonstrativo da seguradora e extrato bancário. Nenhum dado de cliente ou de empresa real aparece neste perfil.
+**Os dez projetos da trilha vivem na mesma empresa fictícia**, a Norte Garantia, uma corretora de seguro garantia. Os dados são gerados artificialmente, com a estrutura de uma corretora real: apólice, parcela, prêmio, comissão, demonstrativo da seguradora e extrato bancário. Nenhum dado de cliente ou de empresa real é usado, em nenhum deles.
 
-Não é dataset de exercício. É uma operação inteira montada do zero, e cada projeto usa o resultado do anterior.
+Isso é escolha, não acaso. Dez projetos soltos com dataset baixado da internet mostram dez exercícios. Dez projetos na mesma operação mostram uma operação sendo construída, e cada um usa o resultado do anterior. Preferi profundidade a variedade.
+
+**E é um recorte, de propósito.** A trilha cobre a parte de dados e automação do meu trabalho, que é a que cabe num repositório. Marketing, vendas e licitação também fazem parte do meu dia a dia e não moram aqui.
 
 ---
 
 ## 🗺️ A trilha
 
 Os dez não são uma lista, são um encadeamento: cada um usa o resultado do anterior. Tudo nasce da mesma base e converge num produto.
+
+Cada um prova uma coisa diferente, e nenhum repete o outro: ler o dado, conferir, apresentar, automatizar, prever, e virar produto.
 
 ```mermaid
 flowchart TD

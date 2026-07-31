@@ -40,7 +40,7 @@ flowchart TD
     A --> G["previsao-receita"]:::fila
     A --> H["segmentacao-carteira"]:::fila
 
-    D --> E["alerta-comissao-atrasada"]:::fila
+    D --> E["alerta-comissao-atrasada"]:::pronto
     I["leitor-de-editais"]:::fila --> J["radar-licitacoes"]:::fila
     F --> J
     E --> J
@@ -69,7 +69,7 @@ flowchart TD
 | Projeto | O que resolve | Status |
 |---|---|---|
 | **[etl-crm-postgres](https://github.com/Lucasnevesads/etl-crm-postgres)** | Puxa os dados do sistema de vendas todo dia, sem ninguém apertar botão, e sem quebrar quando o servidor do outro lado reclama. Idempotente, incremental e auditável. | ✅ |
-| **alerta-comissao-atrasada** | Avisa no WhatsApp quando uma comissão passou do prazo de pagamento, no dia em que passou, e não três meses depois. | ⬜ |
+| **[alerta-comissao-atrasada](https://github.com/Lucasnevesads/alerta-comissao-atrasada)** | Avisa no WhatsApp quando uma comissão passou do prazo de repasse, no dia em que passou, e não três meses depois no fechamento. | ✅ |
 
 ### 3 · Previsão · *olhar pra frente*
 

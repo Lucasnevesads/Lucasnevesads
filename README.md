@@ -35,7 +35,7 @@ flowchart TD
 
     A --> B["auditoria-comissoes"]:::pronto
     A --> C["painel-producao"]:::pronto
-    A --> D["etl-crm-postgres"]:::fila
+    A --> D["etl-crm-postgres"]:::pronto
     A --> F["risco-tomador"]:::fila
     A --> G["previsao-receita"]:::fila
     A --> H["segmentacao-carteira"]:::fila
@@ -68,7 +68,7 @@ flowchart TD
 
 | Projeto | O que resolve | Status |
 |---|---|---|
-| **etl-crm-postgres** | Puxa os dados do sistema de vendas todo dia, sem ninguém apertar botão, e sem quebrar quando o servidor do outro lado reclama. | ⬜ |
+| **[etl-crm-postgres](https://github.com/Lucasnevesads/etl-crm-postgres)** | Puxa os dados do sistema de vendas todo dia, sem ninguém apertar botão, e sem quebrar quando o servidor do outro lado reclama. Idempotente, incremental e auditável. | ✅ |
 | **alerta-comissao-atrasada** | Avisa no WhatsApp quando uma comissão passou do prazo de pagamento, no dia em que passou, e não três meses depois. | ⬜ |
 
 ### 3 · Previsão · *olhar pra frente*

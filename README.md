@@ -36,7 +36,7 @@ flowchart TD
     A --> B["auditoria-comissoes"]:::pronto
     A --> C["painel-producao"]:::pronto
     A --> D["etl-crm-postgres"]:::pronto
-    A --> F["risco-tomador"]:::fila
+    A --> F["risco-tomador"]:::pronto
     A --> G["previsao-receita"]:::fila
     A --> H["segmentacao-carteira"]:::fila
 
@@ -75,7 +75,7 @@ flowchart TD
 
 | Projeto | O que resolve | Status |
 |---|---|---|
-| **risco-tomador** | Estima a chance de uma empresa dar problema antes de aceitar o seguro. E explica o porquê, porque ninguém assina embaixo de um "confia no modelo". | ⬜ |
+| **[risco-tomador](https://github.com/Lucasnevesads/risco-tomador)** | Qual proposta merece uma segunda olhada antes de ir para a seguradora, e por quê. Revisando 20% da fila encontra 60% dos sinistros, e cada posição vem com um parecer. | ✅ |
 | **previsao-receita** | Diz quanto de comissão deve entrar no caixa nos próximos três meses, separando o que foi vendido do que foi recebido. | ⬜ |
 | **segmentacao-carteira** | Descobre, dentro de quem já é cliente, quem tem cara de comprar o segundo produto. Vender de novo custa menos que achar gente nova. | ⬜ |
 
@@ -93,10 +93,10 @@ flowchart TD
 ## 🧰 Ferramentas
 
 **No dia a dia**
-`Python` `Pandas` `SQL` `PostgreSQL` `Excel` `n8n` `API REST` `Webhook` `Docker` `VPS Linux` `Nginx` `GitHub Pages` `HTML` `CSS` `JavaScript` `PHP`
+`Python` `Pandas` `SQL` `PostgreSQL` `Excel` `n8n` `API REST` `Webhook` `Docker` `VPS Linux` `Nginx` `GitHub Pages` `HTML` `CSS` `JavaScript` `PHP` `Scikit-learn` `Modelo explicável`
 
 **Estudando na pós, ainda sem projeto público aqui**
-`Scikit-learn` `Séries temporais` `Modelo explicável`
+`Séries temporais`
 
 A separação é de propósito. Ferramenta que aparece na primeira lista tem código neste perfil ou coisa rodando em produção no meu trabalho. A segunda é honesta sobre onde eu estou: sei usar, mas ainda não publiquei nada aqui que prove.
 

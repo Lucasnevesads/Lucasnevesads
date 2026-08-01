@@ -38,7 +38,7 @@ flowchart TD
     A --> D["etl-crm-postgres"]:::pronto
     A --> F["risco-tomador"]:::pronto
     A --> G["previsao-receita"]:::pronto
-    A --> H["segmentacao-carteira"]:::fila
+    A --> H["segmentacao-carteira"]:::pronto
 
     D --> E["alerta-comissao-atrasada"]:::pronto
     I["leitor-de-editais"]:::fila --> J["radar-licitacoes"]:::fila
@@ -77,7 +77,7 @@ flowchart TD
 |---|---|---|
 | **[risco-tomador](https://github.com/Lucasnevesads/risco-tomador)** | Qual proposta merece uma segunda olhada antes de ir para a seguradora, e por quê. Revisando 20% da fila encontra 60% dos sinistros, e cada posição vem com um parecer. | ✅ |
 | **[previsao-receita](https://github.com/Lucasnevesads/previsao-receita)** | Quanto de comissão entra no caixa nos próximos três meses, separando o que já está vendido do que ainda precisa ser vendido. 45% do trimestre não é previsão, é soma. | ✅ |
-| **segmentacao-carteira** | Descobre, dentro de quem já é cliente, quem tem cara de comprar o segundo produto. Vender de novo custa menos que achar gente nova. | ⬜ |
+| **[segmentacao-carteira](https://github.com/Lucasnevesads/segmentacao-carteira)** | Quem, dentro de quem já é cliente, merece uma ligação esta semana. 80% da comissão vem de 24 dos 120 clientes, e três deles pararam de comprar. | ✅ |
 
 ### 4 · IA e produto · *virar coisa que alguém usa*
 

@@ -17,7 +17,7 @@ Boa parte do que eu faço não é análise complicada. É descobrir que dois rel
 
 **Os dez projetos da trilha vivem na mesma empresa fictícia**, a Norte Garantia, uma corretora de seguro garantia. Os dados são gerados artificialmente, com a estrutura de uma corretora real: apólice, parcela, prêmio, comissão, demonstrativo da seguradora e extrato bancário. Nenhum dado de cliente ou de empresa real é usado, em nenhum deles.
 
-Isso é escolha, não acaso. Dez projetos soltos com dataset baixado da internet mostram dez exercícios. Dez projetos na mesma operação mostram uma operação sendo construída, e cada um usa o resultado do anterior. Preferi profundidade a variedade.
+Isso é escolha, não acaso. Dez projetos soltos com dataset baixado da internet mostram dez exercícios. Dez projetos na mesma operação mostram uma operação sendo construída, e cada um usa o resultado do anterior. Preferi profundidade a variedade. Na fase de IA o dado sintético muda de forma: em vez de planilha, editais fictícios escritos na estrutura da Lei 14.133/2021, com órgãos inventados e defeitos plantados com gabarito.
 
 **E é um recorte, de propósito.** A trilha cobre a parte de dados e automação do meu trabalho, que é a que cabe num repositório. Marketing, vendas e licitação também fazem parte do meu dia a dia e não moram aqui.
 
@@ -25,7 +25,7 @@ Isso é escolha, não acaso. Dez projetos soltos com dataset baixado da internet
 
 ## 🗺️ A trilha
 
-Os dez não são uma lista, são um encadeamento: cada um usa o resultado do anterior. Tudo nasce da mesma base e converge num produto.
+Os dez não são uma lista, são um encadeamento: cada um usa o resultado do anterior. Sete nascem da mesma base sintética; os dois últimos formam uma esteira própria, de editais, que fecha num produto no ar.
 
 Cada um prova uma coisa diferente, e nenhum repete o outro: ler o dado, conferir, apresentar, automatizar, prever, e virar produto.
 
@@ -41,16 +41,13 @@ flowchart TD
     A --> H["segmentacao-carteira"]:::pronto
 
     D --> E["alerta-comissao-atrasada"]:::pronto
-    I["leitor-de-editais"]:::fila --> J["radar-licitacoes"]:::fila
-    F --> J
-    E --> J
-    H --> J
+    I["leitor-de-editais"]:::pronto --> J["radar-licitacoes"]:::pronto
+    F -. próximo passo declarado .-> J
 
     classDef pronto fill:#2a78d6,stroke:#1c5cab,color:#fff,stroke-width:1px
-    classDef fila fill:#f0efec,stroke:#c3c2b7,color:#52514e,stroke-width:1px
 ```
 
-**Azul está no ar.** Cinza é o que vem, na ordem em que faz sentido construir. Sem prazo prometido: cada um sai quando estiver bom.
+**Os dez estão no ar.** A linha pontilhada é o que o próprio radar declara como próximo passo: usar o risco do tomador para calibrar a comissão estimada.
 
 ---
 
@@ -83,17 +80,17 @@ flowchart TD
 
 | Projeto | O que resolve | Status |
 |---|---|---|
-| **leitor-de-editais** | Lê um edital de licitação de 80 páginas e devolve em um minuto o que interessa: objeto, valor, garantia exigida, prazo e quais certidões a empresa precisa ter. | ⬜ |
-| **radar-licitacoes** | Junta as peças anteriores num produto só: acha a licitação, mede o risco, avisa a tempo. | ⬜ |
+| **[leitor-de-editais](https://github.com/Lucasnevesads/leitor-de-editais)** | Lê um edital de licitação e devolve o parecer com conferência: o que ele exige de garantia, qual número não bate e o que ele **não diz**. Extrator por regras ou por IA, com a mesma validação, porque campo não encontrado é diferente de campo vazio. | ✅ |
+| **[radar-licitacoes](https://github.com/Lucasnevesads/radar-licitacoes)** · [ver no ar](https://lucasnevesads.github.io/radar-licitacoes/) | Fecha a trilha: doze editais viram uma fila de cotação ordenada pelo prazo, uma lista do que travou (com o motivo e a conta) e o que dá pra ignorar sem culpa. | ✅ |
 
-⬜ a fazer · 🔨 em construção · ✅ no ar
+✅ no ar
 
 ---
 
 ## 🧰 Ferramentas
 
 **No dia a dia**
-`Python` `Pandas` `SQL` `PostgreSQL` `Excel` `n8n` `API REST` `Webhook` `Docker` `VPS Linux` `Nginx` `GitHub Pages` `HTML` `CSS` `JavaScript` `PHP` `Scikit-learn` `Modelo explicável` `Séries temporais` `Simulação`
+`Python` `Pandas` `SQL` `PostgreSQL` `Excel` `n8n` `API REST` `Webhook` `Docker` `VPS Linux` `Nginx` `GitHub Pages` `HTML` `CSS` `JavaScript` `PHP` `Scikit-learn` `Modelo explicável` `Séries temporais` `Simulação` `API de LLM (Claude)`
 
 **Estudando na pós, ainda sem projeto público aqui**
 `Deep learning` `AWS SageMaker`

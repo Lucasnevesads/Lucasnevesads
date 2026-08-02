@@ -2,14 +2,14 @@
 
 ### Gerente de Projetos · Dados e Automação
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-lucasnevesadm-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasnevesadm/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-lucasnevesbr-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasnevesbr/)
 [![E-mail](https://img.shields.io/badge/E--mail-contato@lucasnevesdata.com.br-0F766E?style=for-the-badge)](mailto:contato@lucasnevesdata.com.br)
 
-Trabalho num grupo de três empresas: duas corretoras de seguro e uma construtora que vive de licitação.
+Meu trabalho é pegar um problema de negócio e levar até o fim. Entender o número, escrever o código, colocar no servidor e explicar o resultado pra quem decide. Não é só dados e não é só gestão. É o caminho inteiro, do problema até a coisa funcionando.
 
-Meu trabalho é pegar um problema do negócio e levar até o fim. Entender o número, escrever o código, colocar no servidor e explicar o resultado pra quem decide. Não é só dados e não é só gestão. É o caminho inteiro, do problema até a coisa funcionando.
+Na prática, isso quer dizer três coisas: descobrir por que dois relatórios que deviam bater medem coisas diferentes, montar a esteira que faz o dado chegar sozinho todo dia, e transformar documento longo em decisão curta. Boa parte não é análise complicada. É a planilha que soma até a linha errada há seis meses. Coisa pequena que custa caro.
 
-Boa parte do que eu faço não é análise complicada. É descobrir que dois relatórios estão medindo coisas diferentes, ou que uma planilha soma até a linha errada há seis meses. Coisa pequena que custa caro.
+Hoje faço isso num grupo de três empresas: duas corretoras de seguros e uma construtora que vive de licitação pública. É por isso que os projetos abaixo falam de apólice, comissão e edital. Troque o vocabulário e o problema é o de qualquer operação: número que precisa bater, rotina que precisa rodar sozinha e decisão que precisa de base.
 
 ---
 

@@ -57,31 +57,31 @@ flowchart TD
 
 | Projeto | O que resolve | Status |
 |---|---|---|
-| **[base-sintetica-seguros](https://github.com/Lucasnevesads/base-sintetica-seguros)** | Como mostrar trabalho com dado financeiro sem expor dado de cliente: uma corretora inteira que não existe, com dado falso que se comporta como o de verdade. É o alicerce dos outros nove. | ✅ |
-| **[auditoria-comissoes](https://github.com/Lucasnevesads/auditoria-comissoes)** | A diretoria acha que sumiram R$ 630 mil de comissão. Não sumiu nada: dois relatórios medem coisas diferentes. Reconstrói a conta até o centavo e acha 24 erros de 24. | ✅ |
-| **[painel-producao](https://github.com/Lucasnevesads/painel-producao)** · [ver no ar](https://lucasnevesads.github.io/painel-producao/) | Uma página que o dono da corretora abre no celular e entende em dez segundos, sem planilha e sem pedir relatório pra ninguém. | ✅ |
+| **[base-sintetica-seguros](https://github.com/lucasnevesbr/base-sintetica-seguros)** | Como mostrar trabalho com dado financeiro sem expor dado de cliente: uma corretora inteira que não existe, com dado falso que se comporta como o de verdade. É o alicerce dos outros nove. | ✅ |
+| **[auditoria-comissoes](https://github.com/lucasnevesbr/auditoria-comissoes)** | A diretoria acha que sumiram R$ 630 mil de comissão. Não sumiu nada: dois relatórios medem coisas diferentes. Reconstrói a conta até o centavo e acha 24 erros de 24. | ✅ |
+| **[painel-producao](https://github.com/lucasnevesbr/painel-producao)** · [ver no ar](https://lucasnevesbr.github.io/painel-producao/) | Uma página que o dono da corretora abre no celular e entende em dez segundos, sem planilha e sem pedir relatório pra ninguém. | ✅ |
 
 ### 2 · Esteira · *fazer o dado andar sozinho*
 
 | Projeto | O que resolve | Status |
 |---|---|---|
-| **[etl-crm-postgres](https://github.com/Lucasnevesads/etl-crm-postgres)** | Puxa os dados do sistema de vendas todo dia, sem ninguém apertar botão, e sem quebrar quando o servidor do outro lado reclama. Idempotente, incremental e auditável. | ✅ |
-| **[alerta-comissao-atrasada](https://github.com/Lucasnevesads/alerta-comissao-atrasada)** | Avisa no WhatsApp quando uma comissão passou do prazo de repasse, no dia em que passou, e não três meses depois no fechamento. | ✅ |
+| **[etl-crm-postgres](https://github.com/lucasnevesbr/etl-crm-postgres)** | Puxa os dados do sistema de vendas todo dia, sem ninguém apertar botão, e sem quebrar quando o servidor do outro lado reclama. Idempotente, incremental e auditável. | ✅ |
+| **[alerta-comissao-atrasada](https://github.com/lucasnevesbr/alerta-comissao-atrasada)** | Avisa no WhatsApp quando uma comissão passou do prazo de repasse, no dia em que passou, e não três meses depois no fechamento. | ✅ |
 
 ### 3 · Previsão · *olhar pra frente*
 
 | Projeto | O que resolve | Status |
 |---|---|---|
-| **[risco-tomador](https://github.com/Lucasnevesads/risco-tomador)** | Qual proposta merece uma segunda olhada antes de ir para a seguradora, e por quê. Revisando 20% da fila encontra 60% dos sinistros, e cada posição vem com um parecer. | ✅ |
-| **[previsao-receita](https://github.com/Lucasnevesads/previsao-receita)** | Quanto de comissão entra no caixa nos próximos três meses, separando o que já está vendido do que ainda precisa ser vendido. 45% do trimestre não é previsão, é soma. | ✅ |
-| **[segmentacao-carteira](https://github.com/Lucasnevesads/segmentacao-carteira)** | Quem, dentro de quem já é cliente, merece uma ligação esta semana. 80% da comissão vem de 24 dos 120 clientes, e três deles pararam de comprar. | ✅ |
+| **[risco-tomador](https://github.com/lucasnevesbr/risco-tomador)** | Qual proposta merece uma segunda olhada antes de ir para a seguradora, e por quê. Revisando 20% da fila encontra 60% dos sinistros, e cada posição vem com um parecer. | ✅ |
+| **[previsao-receita](https://github.com/lucasnevesbr/previsao-receita)** | Quanto de comissão entra no caixa nos próximos três meses, separando o que já está vendido do que ainda precisa ser vendido. 45% do trimestre não é previsão, é soma. | ✅ |
+| **[segmentacao-carteira](https://github.com/lucasnevesbr/segmentacao-carteira)** | Quem, dentro de quem já é cliente, merece uma ligação esta semana. 80% da comissão vem de 24 dos 120 clientes, e três deles pararam de comprar. | ✅ |
 
 ### 4 · IA e produto · *virar coisa que alguém usa*
 
 | Projeto | O que resolve | Status |
 |---|---|---|
-| **[leitor-de-editais](https://github.com/Lucasnevesads/leitor-de-editais)** | Lê um edital de licitação e devolve o parecer com conferência: o que ele exige de garantia, qual número não bate e o que ele **não diz**. Extrator por regras ou por IA, com a mesma validação, porque campo não encontrado é diferente de campo vazio. | ✅ |
-| **[radar-licitacoes](https://github.com/Lucasnevesads/radar-licitacoes)** · [ver no ar](https://lucasnevesads.github.io/radar-licitacoes/) | Fecha a trilha: doze editais viram uma fila de cotação ordenada pelo prazo, uma lista do que travou (com o motivo e a conta) e o que dá pra ignorar sem culpa. | ✅ |
+| **[leitor-de-editais](https://github.com/lucasnevesbr/leitor-de-editais)** | Lê um edital de licitação e devolve o parecer com conferência: o que ele exige de garantia, qual número não bate e o que ele **não diz**. Extrator por regras ou por IA, com a mesma validação, porque campo não encontrado é diferente de campo vazio. | ✅ |
+| **[radar-licitacoes](https://github.com/lucasnevesbr/radar-licitacoes)** · [ver no ar](https://lucasnevesbr.github.io/radar-licitacoes/) | Fecha a trilha: doze editais viram uma fila de cotação ordenada pelo prazo, uma lista do que travou (com o motivo e a conta) e o que dá pra ignorar sem culpa. | ✅ |
 
 ✅ no ar
 
